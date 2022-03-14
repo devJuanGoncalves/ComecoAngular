@@ -8,11 +8,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-first-project';
-
-  constructor(private service: TransferenciaService) {}
-
-  transferir($event) {
-    console.log($event);
-    this.service.adicionar($event);
-  }
 }
