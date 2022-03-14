@@ -7,6 +7,7 @@ import { Component, Output, EventEmitter } from '@angular/core';
 })
 export class NovaTransferenciaComponent {
   @Output() aoTransferir = new EventEmitter<any>();
+  private url = 'http://localhost:3000/transferencias';
 
   valor: number;
   destino: number;
